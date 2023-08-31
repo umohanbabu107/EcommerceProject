@@ -23,7 +23,7 @@ public class LoginPage {
     @FindBy(id = "login")
     WebElement loginButton;
 
-    public void logintoApplication(String lUsername, String lPassword) {
+    public void loginToApplication(String lUsername, String lPassword) {
         email.sendKeys(lUsername);
         password.sendKeys(lPassword);
         loginButton.click();

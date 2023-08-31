@@ -8,7 +8,7 @@ public class LoginTests extends BaseTest{
     @Test
     public void logInTest(){
         LoginPage lp = new LoginPage(driver);
-        lp.logintoApplication(" dsalvotore@gmail.com", "Deamon@123");
+        lp.loginToApplication(" dsalvotore@gmail.com", "Deamon@123");
 
     }
 
